@@ -1,0 +1,135 @@
+@charset 'UTF-8';
+@import url(./fonts.css);
+
+
+.sidenav {
+    height:100%;
+    width: 0;
+    position: fixed;
+    z-index:1;
+    top: 0;
+    right: 0;
+    background-color: #eb6e72;
+    overflow-x: hidden;
+    transition:0.5s ease-in-out;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.2s ease-in-out;
+}
+.sidenav a:hover, .offcanvas a:focus {
+    color: #000;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+.openmenu:hover {
+    color:rgb(0,154,200);
+    transition:0.5s ease-in-out;
+}
+.openmenu {
+    font-size: 25px;
+    cursor:pointer;
+    transition:0.5s ease-in-out;
+}
+.openmenu > i {
+    font-size: 30px;
+}
+/* 미디어쿼리 적용 */
+@media screen and (max-height:450px) {
+    .sidenav {
+        padding-top:15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/*사이드메뉴*/
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 32px;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    width: 100%;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size:12px;
+}
+ul.tabs li {
+    float: left;
+    text-align:center;
+    cursor: pointer;
+    width:114px;
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #eee;
+    border-left: none;
+    font-weight: bold;
+    background: #fafafa;
+    overflow: hidden;
+    position: relative;
+}
+ul.tabs li.active {
+    background: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+.tab_container {
+    border: 1px solid #eee;
+    border-top: none;
+    clear: both;
+    float: left;
+	width: 350px;
+    background: #FFFFFF;
+}
+.tab_content {
+    padding: 5px;
+    font-size: 12px;
+    display: none;
+}
+.tab_container .tab_content ul {
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.tab_container .tab_content ul li {
+    padding:5px;
+    list-style:none
+}
+;
+ #container {
+	width: 350px;
+	height: 100%;
+    margin: 0 auto;
+}
+
+.img-cover{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);                                                                 
+	z-index:1;
+ }
+
+.img .imgContent{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);                                                                   
+	font-size:5rem;
+	color: white;
+	z-index: 2;
+	text-align: center;
+}

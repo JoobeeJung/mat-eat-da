@@ -1,0 +1,186 @@
+#content #col2 {
+	width:836px;
+	min-height:558px;
+ }
+ 
+ #content #col2 #title{
+	margin-left:15px;
+	margin-top:30px;
+	width:96%;
+	height:30px;
+	border-bottom:solid 1px #cccccc;
+ }
+ 
+ 
+ #content #col2 #form_join{
+	margin-left:15px;
+	width:96%;
+	height:300px;
+	border-bottom:solid 1px #cccccc;
+ }
+ 
+ #content #col2 #form_join #join1 {
+	float:left;
+	width:120px;
+	height:250px;
+	background-color:#dddddd;   
+	border-bottom:solid 1px #cccccc;
+ }
+ 
+ #content #col2 #form_join #join1 ul {
+	margin-top:4px; 
+ }
+ 
+ #content #col2 #form_join #join1 li {
+	padding:10px; 
+ }
+ 
+ #content #col2 #form_join #join2 {
+	float:left;
+	width:670px;
+	height:237px;
+ }
+ 
+ #content #col2 #form_join #join2 li {
+	 width:100%;
+	height:28px; 
+	padding-left:8px;
+	padding-top:6px;
+	border-bottom:solid 1px #cccccc;
+ }
+ 
+ #content #col2 #form_join #join2 #id1 {
+	float:left;
+ }
+ 
+ #content #col2 #form_join #join2 #id2 {
+	float:left;
+	margin-left:5px;
+ }
+ 
+ #content #col2 #form_join #join2 #id3 {
+ 
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+ }
+ 
+ #content #col2 #form_join #join2 input {
+		 width:150px;
+	height:18px;
+	border:solid 1px #cccccc;
+ }
+ 
+ #content #col2 #form_join #join2 #nick1 {
+	float:left;
+ }
+ 
+ #content #col2 #form_join #join2 #nick2 {
+	float:left;
+	margin-left:5px;
+ }
+ 
+ #content #col2 #form_join #join2 input.hp {
+	 width:40px;
+	height:18px;
+	border:solid 1px #cccccc;
+ }
+ 
+ #content #col2 #form_join #join2 input#email1 {
+	 width:90px;
+	height:18px;
+	border:solid 1px #cccccc;
+ }
+ 
+ 
+ #content #col2 #form_join #must {
+	padding-top:15px;
+ }
+ 
+ #content #col2 #button {
+	text-align:right;
+	margin-top:20px;
+	margin-right:20px;
+ }
+ 
+ /* login */
+ 
+ #login_form {
+	width:100%;
+	height:100%;
+ }
+ 
+ #login_form #login_msg {
+		 width:500px;
+		 height:60px;
+	margin-top:50px;
+	margin-bottom:30px;
+		 margin-left:680px;
+ }
+ 
+ #login_form #login1 {
+		 margin-left:850px;
+		 width:150px;
+		 height:100px;
+ }
+ 
+ #login_form #login2 {
+	width:500px;
+	height:150px;
+		 margin-left:60px;
+	margin-top:40px;
+ }
+ 
+ #login2 #id_pw_title {
+	width:100px;
+	height:100px;
+		 margin-left:650px;
+ }
+ 
+ #login2 #id_pw_title ul{
+	margin-top:10px;
+ }
+ 
+ #login2 #id_pw_title li{
+	margin-bottom:11px;
+ }
+ 
+ #login2 #id_pw_input {
+		margin-top:-100px;
+		margin-left:720px;
+	
+ }
+ 
+ #login2 #id_pw_input li{
+		 margin-bottom:10px;
+		 margin-top:10px;
+ }
+ 
+ #login2 #id_pw_input input.login_input {
+		 font-size:20px;
+		 font-family:"나눔바른고딕";
+	width:300px;
+	height:50px;
+	border:solid 2px #cccccc;
+ }
+ 
+ #login2 #login_button {
+		 width:80%;
+		 height:80%;
+	margin-left:650px;
+ }
+ 
+ #login2 #login_line {
+	width:382px;
+	height:1px;
+	margin-left:580px;
+	margin-top:20px;
+	border-bottom:solid 1px #dddddd;
+ }
+ 
+ #login2 #join_button {
+	width:100%;
+	height:100%;
+	margin-left:900px;
+	
+ }

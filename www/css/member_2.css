@@ -1,0 +1,155 @@
+#container {
+    margin: 0 auto;
+width:768px;
+min-height:800px;
+margin-left:850px;
+float:center;
+}
+
+#content {
+overflow:hidden;
+width:1398px;
+min-height: 1000px;
+    margin-left : auto;
+}
+
+.insert_member_image{
+margin: 20px 0 ;
+}
+
+
+/* #content{
+    width: 460px;
+    heigh: auto;
+    margin-top: 70px;
+    margin-left: 0 auto;
+}
+*/
+
+.join_title{
+margin: 10px 0 ;
+width: 100%;
+height: 35px;
+font-size: 14px;
+font-weight: 700;
+}
+
+/* .h3{
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+*/
+
+.psd_box.int_id{
+padding_right: 110px;
+}
+
+.ps_box, .ps_box_disable{
+display: block;
+position: relative;
+width: 30%;
+height: 51px;
+border: solid 1px #dadada;
+padding: 10px 14px 10px 14px;
+background: #fff;
+box-sizing: border-box;
+vertical-align: top;
+}
+
+.int{
+display: block;
+position: relative;
+width:40%;
+height: 29px;
+padding-right: 25px;
+line-height: 29px;
+border: none;
+background: #fff;
+font-size: 15px;
+box-sizing: border-box;
+z-index: 10;
+}
+
+#container #button {
+margin-top:40px;
+margin-right:200px;        
+}
+
+/* login */
+
+#login_form {
+margin-left:15px;
+width:96%;
+height:300px;
+border-bottom:solid 1px #cccccc;
+}
+
+#login_form #login_msg {
+margin-top:30px;
+margin-bottom:20px;
+}
+
+#login_form #login1 {
+float:left;
+margin-left:80px;
+margin-top:20px;
+}
+
+#login_form #login2 {
+float:left;
+width:500px;
+height:150px;
+margin-left:60px;
+margin-top:40px;
+}
+
+#login2 #id_pw_title {
+float:left;
+width:80px;
+height:50px;
+text-align:right;
+}
+
+#login2 #id_pw_title ul{
+margin-top:7px;
+}
+
+#login2 #id_pw_title li{
+padding-bottom:11px;
+}
+
+#login2 #id_pw_input {
+float:left;
+height:50px;
+margin-left:10px;
+}
+
+#login2 #id_pw_input li{
+padding-bottom:7px;
+}
+
+#login2 #id_pw_input input.login_input {
+width:150px;
+height:18px;
+border:solid 1px #cccccc;
+}
+
+#login2 #login_button {
+float:left;
+margin-left:10px;
+}
+
+#login2 #login_line {
+width:382px;
+height:1px;
+margin-top:20px;
+border-bottom:solid 1px #dddddd;
+}
+
+#login2 #join_button {
+margin-top:20px;
+margin-left:30px;
+}
